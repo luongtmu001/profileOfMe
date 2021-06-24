@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    max-width: 1920px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clear {
+    clear: both;
+}
+.margin-280{
+    margin: 280px 0px;
+}
+.padding-55{
+    padding-left: 55px;
+}
+.padding-24 {
+    padding: 0 24px;
+}
+.margin-55{
+    margin: 0 55px;
+}
+.col-third {
+    width: 33.33333%;
+}
+#header {
+    width: 100%;
+    background-color:#fff;
+}
+#header .header-name {
+    line-height: 120px;
+    height: 120px;
+    color: #d7794a;
+}
+#header .header-list {
+    height: 80px;
+    background-color: #898d8e;
+    line-height: 80px;
+}
+.header-list .list-item li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9.6pt;
+    display: inline-block;
+    text-decoration: none;
+    color: #e8e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 24px;
+}
+
+.header-list .list-item li:hover{
+    color: #000;
+    background-color: #7d9097;
+    cursor: pointer;
+}
+#slider {
+    position: relative;
+    height: 695px;
+    background-color: #b7bcbe;
+}
+#slider .slider-box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 116px;
+}
+#slider h1,
+#slider h2{
+    margin-right: 145px;
+    padding: 21px 0px;
+}
+#slider h1{
+    letter-spacing: 4px;
+    font-size: 34.56pt;
+    font-weight: 500;
+    color:#fcf9f7;
+}
+#slider h2{
+    font-size: 23.04pt;
+    color: #d7794a;
+}
+#content {
+    
+}
+.member-list .member-info {
+    float: left;
+    text-align: center;
+}
+.team-leader .title {
+    font-size: 29.33pt;
+    color: #a95e39;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.team-leader hr {
+    border:solid 1px #a95e39; 
+    width:340px ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-leader .des{
+    text-align: center;
+    font-size: 14.67pt;
+    margin: 86px 120px 129px 120px;
+}
+.member-list .member-info .member-name{
+    font-size: 14.67pt;
+    padding: 49px 0;
+}
+.member-list .member-info .member-intro{
+    font-size: 9.78pt;
+    margin: 0 40px;
+}
+/* .team-leader .member-list .wrap-img {
+    width: 336px;
+    //width: 269px;
+    //height: 335.5px; 
+    background-color: #898d8e;
+} 
+*/
+.member-info img {
+    text-align: center;
+    width: 336px;
+    /* height: 427px; */
+    padding: 0 45px;
+
+}
+.advantage .detail {
+    height: 150px;
+    background-color: #1f3138;
+    margin: 0 -55px;
+}
+.advantage .detail ul {
+    text-align: center;
+}
+.advantage .detail li{
+    display: inline-block;
+    margin: auto;
+}

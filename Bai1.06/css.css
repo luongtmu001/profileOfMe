@@ -1,0 +1,41 @@
+.top.h1{
+            text-align: center;
+            color: rgb(255, 153, 0);
+            border-style:double;
+}
+.mid.p{
+            
+          text-align: left;
+
+}
+.mid.p::first-letter{  /*viet hoa chu dau*/
+    color: red;
+    font: 40px Times;
+    font-weight: bolder;
+}
+.a{
+        background-color: rgb(255,153,0);
+        color: white;
+        text-align:right;
+        font-size:20px;
+    
+}
+.bt.b{
+        text-align: right;
+}
+.bt.b::first-letter{
+
+    padding: 0 0 0 0;
+    display:block;
+     color: red;
+    font: 40px Times;
+    font-weight: bolder;
+    }     
+
+   /* p.pdropcap:first-letter {
+        float: left;
+        padding: 4px 8px 0 0;
+        display: block;
+        color: #336699;
+        font: 60px/50px Georgia, Times, serif;
+      }*/
