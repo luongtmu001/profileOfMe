@@ -1,0 +1,79 @@
+@media (min-width: 64em){
+    .container-hobbies .row-half{
+        height: unset;
+    }
+}
+
+
+
+@media (max-width:46.1875em){
+    #header {
+        flex-direction: column-reverse;
+        height: unset;
+    }
+    #header .header__img{
+        max-height: 150px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+    #content .about-me{
+        width: -webkit-fill-available;
+        margin: unset;
+        border: unset;
+        border-radius: unset;
+    }
+    #content .overview{
+        order:1; 
+        width: -webkit-fill-available;
+    }
+    #content .about-me {
+        order:2;
+    }
+    #content .skill{
+        order:3; 
+        margin: 20px 0;
+    }
+    #content .photo{
+        order: 4;
+    }
+    .margin-100{
+        margin:0px;
+    }
+    .hobbies .container-hobbies{
+        justify-content: center;
+    }
+    .container-hobbies .hobbies-list{
+        margin:20px;
+    }
+    .col-third{
+        width: 100%;
+    }
+    .slide img{
+        width: auto;
+        max-height: 100%;
+    }
+    .photo .box-slide{
+    margin-top: 110px;
+    margin-bottom: -100px;
+    max-height: 179px;
+    padding: 10px 0;
+    }
+    #bottom_1:checked ~ .s1{
+        margin-left: 1.5%;
+    }
+    #bottom_2:checked ~ .s1{
+        margin-left: -33.5%;
+    }
+    #bottom_3:checked ~ .s1{
+        margin-left: -115%;
+    }
+    #bottom_4:checked ~ .s1{
+        margin-left:-525%;
+    }
+}
