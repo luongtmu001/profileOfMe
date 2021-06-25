@@ -4,7 +4,17 @@
     }
 }
 
-
+@media (min-width: 46em) and (max-width:63.9375em){
+    .margin-100{
+        margin:0px;
+    }
+    #content .about-me{
+        margin: unset;
+    }
+    #content .overview{
+        margin: 10% 0 0 2%
+    }
+}
 
 @media (max-width:46.1875em){
     #header {
