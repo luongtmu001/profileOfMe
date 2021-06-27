@@ -57,6 +57,7 @@
     }
     .hobbies .container-hobbies{
         justify-content: center;
+        flex-wrap: wrap;
     }
     .container-hobbies .hobbies-list{
         margin:20px;
